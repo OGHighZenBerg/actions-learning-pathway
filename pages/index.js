@@ -5,6 +5,14 @@ import styles from '@/styles/Home.module.css'
 
 const inter = Inter({ subsets: ['latin'] })
 
+/**
+ * Renders the home page of the application.
+ *
+ * This component displays a success message and serves as the main entry point of the user interface.
+ * It includes metadata in the Head component for SEO and accessibility.
+ *
+ * @returns {JSX.Element} The rendered home page component.
+ */
 export default function Home() {
   return (
     <>
